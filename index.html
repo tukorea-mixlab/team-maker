@@ -141,7 +141,7 @@
                 console.log(result)
 
                 $('#result').empty()
-                $('#result').fadeIn(400)
+                $('#result').css('display', 'flex').fadeIn(400)
                 for(let i in result){
                     let teamNumber = Number(i)+1
                     let dom = $('<div></div>')
